@@ -25,6 +25,15 @@ public class main {
                System.out.println("Stack size is: " + stack.size());
                System.out.println("~~~~~~~~~~~~~~~~~~");
                break;
+               
+           case 2:   
+               System.out.println("Add a number: ");
+               int num = sc.nextInt();
+               System.out.println("Pushed value: " + num);
+               stack.push(num);
+               stack.size();
+               System.out.println("~~~~~~~~~~~~~~~~~~");
+               break; 
     }
 }
     }
