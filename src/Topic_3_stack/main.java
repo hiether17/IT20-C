@@ -34,6 +34,12 @@ public class main {
                stack.size();
                System.out.println("~~~~~~~~~~~~~~~~~~");
                break; 
+               
+           case 3:                   
+               stack.peek();
+               System.out.println("Popped element: " + stack.pop());
+               stack.size();
+               break;   
     }
 }
     }
