@@ -39,7 +39,12 @@ public class main {
                stack.peek();
                System.out.println("Popped element: " + stack.pop());
                stack.size();
-               break;   
+               break;  
+               
+           case 4:
+                   System.out.println("Thank you, and comeback and run it again!!");
+                   System.exit(0);
+                   break;
     }
 }
     }
